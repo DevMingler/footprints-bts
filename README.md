@@ -115,10 +115,12 @@ Future outputs may include:
 ## Related Repositories
 
 ### footprints-custom-gpt
+[GitHub repo](https://github.com/DevMingler/footprints-custom-gpt)
 
 Contains the instructions and supporting assets required to run Footprints as a Custom GPT.
 
 ### footprints-codex-skill
+[GitHub repo](https://github.com/DevMingler/footprints-codex-skill)
 
 Contains the Codex Skill implementation and community-driven enhancements.
 
