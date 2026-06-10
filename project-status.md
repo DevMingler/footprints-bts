@@ -12,7 +12,7 @@ Current focus is on prompt engineering, evaluation, and report quality rather th
 
 ## Current Phase
 
-Phase 0 — Research & Validation
+### Phase 0 — Research & Validation
 
 Objective:
 
@@ -25,6 +25,17 @@ Success criteria:
 * Recognition of long-term interests
 * Meaningful summaries
 * Outputs that users recognise as accurate and useful
+
+Status: Complete
+
+### Phase 1 — Apply research when building the Custom GPT and Codex Skill
+
+Objective:
+
+* Build the [Custom GPT](https://github.com/DevMingler/footprints-custom-gpt)
+* Build the [Codex skill](https://github.com/DevMingler/footprints-codex-skill)
+
+Status: In Progress
 
 ---
 
@@ -46,8 +57,9 @@ Purpose:
 ---
 
 ### footprints-custom-gpt
+[GitHub repo](https://github.com/DevMingler/footprints-custom-gpt)
 
-Status: Planned
+Status: [Deployed](https://chatgpt.com/g/g-6a293531488881918b349a03308c11b3-footprints)
 
 Purpose:
 
@@ -57,13 +69,14 @@ Purpose:
 
 Current focus:
 
-* Awaiting prompt maturity
+* Testing
 
 ---
 
 ### footprints-codex-skill
+[GitHub repo](https://github.com/DevMingler/footprints-codex-skill)
 
-Status: Planned
+Status: In progress
 
 Purpose:
 
@@ -73,7 +86,7 @@ Purpose:
 
 Current focus:
 
-* Awaiting prompt maturity
+* Building out the Codex skill
 
 ---
 
