@@ -140,9 +140,19 @@ Goal:
 
 Produce a report that accurately reflects the contents of a real export and would cause a user to say:
 
-> "Yes, this feels like my year."
+> "Yes, that feels like the path I walked."
 
-Status: Not Started
+Status: In Progress
+
+First run:
+
+* Export: [Example Chat](example-chats/chat.json)
+* Prompt: [Footprints Reflective Report Prompt v0.1](prompts/001-generate-reflective-report.md)
+* Report: [Reflective Report 001](reports/001-example-chat.md)
+* Evaluation: [Evaluation 001](evaluations/001-example-chat.md)
+
+The report has been generated. Priority 4 remains in progress until the export
+owner completes the evaluation and the result meets the pass criteria.
 
 ---
 
