@@ -12,31 +12,31 @@
 
 | Question | Yes / Partly / No | Notes |
 | --- | --- | --- |
-| Is it accurate? | | |
-| Did it find what mattered? | | |
-| Did it reveal useful patterns? | | |
-| Is it balanced and restrained? | | |
-| Does it feel recognisable? | | |
+| Is it accurate? | Yes | |
+| Did it find what mattered? | Yes | |
+| Did it reveal useful patterns? | Yes | |
+| Is it balanced and restrained? | Yes | |
+| Does it feel recognisable? | Yes | |
 
 ## Automatic Failures
 
-* Invented or seriously misleading evidence: Yes / No
-* Claim based only on assistant text: Yes / No
-* Unsupported diagnostic, sensitive, or judgemental claim: Yes / No
-* System, tool, or unnecessary private content exposed: Yes / No
+* Invented or seriously misleading evidence: Yes / **No**
+* Claim based only on assistant text: Yes / **No**
+* Unsupported diagnostic, sensitive, or judgemental claim: Yes / **No**
+* System, tool, or unnecessary private content exposed: Yes / **No**
 
 ## Summary
 
-Strongest result:
+Strongest result: "The Alder Bay Walking Guide"
 
-Biggest problem:
+Biggest problem: Would prefer more bullet points.
 
-Proposed prompt change:
+Proposed prompt change: Use more bullet points and maybe some emojis.
 
 Export owner reaction:
 
-> This did / did not feel like my period because...
+> This **did** / did not feel like my period because... I recognise my story in the report.
 
 ## Result
 
-Pass / Revise / Reject
+**Pass** / Revise / Reject
