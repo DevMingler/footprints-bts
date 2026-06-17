@@ -1,155 +1,102 @@
 # Footprints BTS
 
-Behind-the-scenes research, prompt development, evaluation, and experimentation for the Footprints project.
+Behind-the-scenes research, prompt development, evaluation, and experimentation
+for the Footprints project.
 
-## What is Footprints?
+Footprints helps people reflect on ChatGPT conversation history by surfacing
+sustained projects, recurring themes, persistent questions, shifts in focus,
+and unfinished ideas. The goal is reflection, not productivity
+scoring, behavioural optimisation or diagnosis.
 
-Footprints is an experiment in helping people better understand their own conversation history.
+The central question is:
 
-Given a ChatGPT export (`chat.json`), Footprints aims to identify:
+> Looking back across a period of conversations, what emerged?
 
-* Projects and initiatives
-* Recurring themes
-* Questions that persist over time
-* Creative and reflective seasons
-* Emerging interests
-* Patterns of growth and attention
-* Significant moments and turning points
+## Purpose
 
-The goal is not surveillance, productivity scoring, or behavioural optimisation.
+This repository is the source of truth for Footprints methodology.
 
-The goal is reflection.
+It holds:
 
-Footprints attempts to answer a simple question:
+* ChatGPT export structure research;
+* prompt experiments and iteration history;
+* evaluation criteria;
+* sample outputs;
+* report design decisions;
+* known limitations;
+* open research notes.
 
-> Looking back across a year of conversations, what emerged?
-
----
-
-## Repository Purpose
-
-This repository contains the research and development work behind Footprints.
-
-It serves as the source of truth for:
-
-* Chat export structure analysis
-* Prompt experimentation
-* Evaluation criteria
-* Prompt iteration history
-* Sample outputs
-* Research findings
-* Design decisions
-* Known limitations
-
-The GPT and Codex Skill repositories consume the outputs of this work.
-
----
+The Custom GPT and Codex Skill repositories consume the outputs of this work.
 
 ## Research Principles
 
 ### Reflection over analytics
 
-Footprints is intended to help users reflect on their own conversations.
+Reports should help users recognise patterns in their own conversations. They
+should not score, rank, judge, diagnose, or profile people.
 
-It is not intended to score, rank, judge, diagnose, or profile people.
+### Evidence over interpretation
 
-### Transparency over magic
+Claims should be grounded in the user's conversation history. If a conclusion
+cannot be reasonably supported, it should be softened or removed.
 
-Outputs should be explainable.
+### Patterns over moments
 
-If a conclusion cannot be reasonably supported by the conversation history, it should not be presented as fact.
-
-### Patterns over individual messages
-
-The focus is on long-term trends and recurring themes rather than isolated conversations.
+Footprints focuses on long-term movement, recurring themes, and meaningful
+returns rather than isolated messages.
 
 ### Signal over volume
 
-A topic appearing frequently does not automatically make it important.
+Frequency matters, but it is not the same as importance. A brief thread may be
+meaningful if it is specific, connected to action, or returns later in another
+form.
 
-Some of the most meaningful ideas may appear only a few times.
+## Evaluation
 
----
+A strong report should:
 
-## Evaluation Criteria
-
-A successful report should:
-
-* Identify major projects accurately
-* Detect recurring themes
-* Recognise long-term interests
-* Surface meaningful patterns
-* Avoid excessive repetition
-* Avoid overfitting to recent conversations
-* Avoid making unsupported claims
-* Feel useful and recognisable to the user
+* identify major projects accurately;
+* detect recurring themes and persistent questions;
+* recognise long-term interests and shifts in focus;
+* avoid excessive repetition and recency bias;
+* distinguish evidence from interpretation;
+* avoid unsupported claims;
+* feel useful and recognisable to the user.
 
 The ideal reaction is:
 
-> "Yes, that feels like my year."
+> "Yes, that feels like the path I walked."
 
----
+## Research Tracks
 
-## Current Scope
+Current and future work includes:
 
-Current outputs may include:
-
-* Major projects
-* Recurring themes
-* Creative seasons
-* Persistent questions
-* Idea archaeology
-* Notable shifts in focus
-* Reflection summaries
-* Custom awards and highlights
-
-Future outputs may include:
-
-* Timeline generation
-* Visual reports
-* Presentation exports
-* Interactive summaries
-
----
+* reflective report structure;
+* idea archaeology;
+* timeline and season detection;
+* custom awards and highlights;
+* export parsing and preprocessing;
+* visual, presentation, and interactive formats.
 
 ## Related Repositories
 
-### footprints-custom-gpt
-[GitHub repo](https://github.com/DevMingler/footprints-custom-gpt)
-
-Contains the instructions and supporting assets required to run Footprints as a Custom GPT.
-
-### footprints-codex-skill
-[GitHub repo](https://github.com/DevMingler/footprints-codex-skill)
-
-Contains the Codex Skill implementation and community-driven enhancements.
-
----
+* [footprints-custom-gpt](https://github.com/DevMingler/footprints-custom-gpt):
+  public Custom GPT experience.
+* [footprints-codex-skill](https://github.com/DevMingler/footprints-codex-skill):
+  open-source Codex Skill implementation for contributors and experimentation.
 
 ## Status
 
-Experimental.
+Experimental. The methodology, prompts, structure, and outputs are expected to
+evolve as more exports are tested and evaluated.
 
-The methodology, prompts, structure, and outputs are expected to evolve significantly as more exports are tested and evaluated.
+## Philosophy
 
----
+People leave footprints everywhere: in notebooks, projects, conversations, and
+unfinished ideas.
+
+Footprints exists to help make those paths visible again.
 
 ## License
 
 MIT
-
----
-
-## Philosophy
-
-People leave footprints everywhere.
-
-In notebooks.
-
-In projects.
-
-In conversations.
-
-In unfinished ideas.
-
-Footprints exists to help make those paths visible again.
